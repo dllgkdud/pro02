@@ -16,14 +16,25 @@
 <link rel="apple-touch-icon-precomposed" href="./img/favicon/favicon.png">
 
 <!-- metaphor -->
+<title class="notranslate">스타벅스</title>
+<link rel="image_src" href="//sui.ssgcdn.com/ui/common/img/sns/mnstarbucks.png"/>
 <meta name="title" content="스타벅스" />
 <meta name="description" content="스타벅스" />
+<meta name="google-site-verification" content="riDJ-IX46HanskLx25pj6-y8ANf2qTgZNfv_UJvkHq8" />
 
 <!-- css -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+<style>
+.title {
+	margin: 40px auto;
+}
+.btn-group {
+	margin-bottom: 30px;
+}
+</style>
 <body>
 <%@ include file="../header.jsp" %>
 <div class="content container" id="content">

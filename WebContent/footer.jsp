@@ -19,12 +19,12 @@
     </section>
     <section class="justify-content-lg-between p-4 border-bottom">
         <div class="me-5 d-none d-lg-block">
-            <img src="./img/footer/footer_award23.jpg"></img>
-            <img src="./img/footer/footer_award24.jpg"></img>
-            <img src="./img/footer/footer_award25.jpg"></img>
-            <img src="./img/footer/footer_award26.jpg"></img>
-            <img src="./img/footer/footer_award27.jpg"></img>
-            <img src="./img/footer/footer_award28.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award23.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award24.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award25.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award26.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award27.jpg"></img>
+            <img src="<%=request.getContextPath() %>/img/footer/footer_award28.jpg"></img>
         </div>
     </section>
     <!-- Copyright -->

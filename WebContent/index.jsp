@@ -5,14 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>스타벅스</title>
+
 <!-- favicon -->
-<link rel="shortcut icon" sizes="192*192" href="./img/favicon/favicon.png">
-<link rel="apple-touch-icon" href="./img/favicon/favicon.png">
-<link rel="apple-touch-icon-precomposed" href="./img/favicon/favicon.png">
+<link rel="shortcut icon" sizes="192*192" href="<%=request.getContextPath() %>/img/favicon/favicon.png">
+<link rel="apple-touch-icon" href="<%=request.getContextPath() %>/img/favicon/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="<%=request.getContextPath() %>/img/favicon/favicon.png">
 
 <!-- metaphor -->
+<title class="notranslate">스타벅스</title>
+<link rel="image_src" href="//sui.ssgcdn.com/ui/common/img/sns/mnstarbucks.png"/>
 <meta name="title" content="스타벅스" />
 <meta name="description" content="스타벅스" />
+<meta name="google-site-verification" content="riDJ-IX46HanskLx25pj6-y8ANf2qTgZNfv_UJvkHq8" />
 
 <!-- css -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -20,57 +24,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <style>
-/* Navigation */
-.justify-content-end {
-    padding: 5px 10%;
-    font-size: 12px;
-    border-bottom: 1px solid #eee;
-}
-.img-point {
-    padding: 5px 10%;
-    font-size: 12px;
-}
-.nav-link {
-    color: #222;
-}
-.nav-link-img {
-    margin-top: 3px;
-    margin-left: 15px;
-}
-#mainNav {
-    background: #1e3932;
-}
-.navbar-dark .navbar-nav .nav-link{
-    color: #fff;
-    border-bottom: 2px solid #1e3932;
-}
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff;
-    border-bottom: 2px solid #fff;
-}
-.dropdown-menu {
-    padding: 1.2em 0;
-    border: 1px solid #eee;
-    border-radius: 0;
-}
-.dropdown-item:hover {
-    background-color: #fff;
-    color: #1e3932;
-    text-decoration: underline;
-    font-weight: 600;
-}
-.btn-main {
-    background-color: transparent;
-    border: none;
-    color: #222;
-    font-size: 12px;
-    height: 32px;
-    padding: 0 20px;
-}
-.btn-main:hover {
-    background-color: transparent;
-    color: #222;
-}
 /* MainPage */
 #subNav {
     margin-top: 120px;
